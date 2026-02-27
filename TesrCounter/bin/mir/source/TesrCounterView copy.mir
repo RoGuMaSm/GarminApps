@@ -1,0 +1,149 @@
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 4; @symbol_classdef = [TesrCounterView,4,6,21]; @symbol_extends<0> = [WatchUi,4,30,37]; @symbol_extends<1> = [View,4,38,42]; ]
+class TesrCounterView extends WatchUi.View {
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 6; @position = 15; @symbol_vardef = [_count,6,15,21]; ]
+    private
+    var _count = 0;
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    function initialize() as Void {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_8_26_10_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 9 8 ]
+        symbol [ View %tmp.2 9 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 9 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_8_26_10_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 13; @symbol_functiondef = [updateCount,13,13,24]; @symbol_param<0> = [newCount,13,25,33]; ]
+    function updateCount(newCount) {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_13_35_16_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 14 8 ]
+        %tmp.1 = lgetv %newCount;
+        symbol [ newCount %tmp.1 14 17 25 ];
+        symbol [ _count ? 14 8 14 ];
+        putv self :_count %tmp.1;
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 15 8 ]
+        symbol [ WatchUi %tmp.2 15 8 15 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.3 15 16 29 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_13_35_16_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 20; @symbol_functiondef = [onLayout,20,13,21]; @symbol_param<0> = [dc,20,22,24]; @symbol_param<0>_type<0> = [Dc,20,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_20_40_22_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 21 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 21 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 21 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 21 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 21 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 21 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_20_40_22_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 27; @symbol_functiondef = [onShow,27,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 31; @symbol_functiondef = [onUpdate,31,13,21]; @symbol_param<0> = [dc,31,22,24]; ]
+    function onUpdate(dc) {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_31_26_45_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 33 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 33 8 10 ];
+        symbol [ setColor %tmp.2 33 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 33 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 33 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 33 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 33 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 34 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 34 8 10 ];
+        symbol [ clear %tmp.8 34 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 37 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 37 8 10 ];
+        symbol [ setColor %tmp.10 37 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 37 20 28 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.12 37 29 40 ];
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        symbol [ Graphics %tmp.13 37 42 50 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 37 51 68 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc" 38 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 38 8 10 ];
+        symbol [ drawText %tmp.16 38 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 39 12 14 ];
+        symbol [ getWidth %tmp.18 39 15 23 ];
+        %tmp.18 = getv function %tmp.17 :getWidth;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = lgetv %dc;
+        symbol [ dc %tmp.22 40 12 14 ];
+        symbol [ getHeight %tmp.23 40 15 24 ];
+        %tmp.23 = getv function %tmp.22 :getHeight;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        symbol [ Graphics %tmp.27 41 12 20 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_THAI_HOT %tmp.28 41 21 41 ];
+        %tmp.28 = getv %tmp.27 :FONT_NUMBER_THAI_HOT;
+        symbol [ _count %tmp.30 42 12 18 ];
+        %tmp.30 = getv ? :_count;
+        symbol [ toString %tmp.31 42 19 27 ];
+        %tmp.31 = getv function %tmp.30 :toString;
+        %tmp.32 = invoke %tmp.30 %tmp.31();
+        symbol [ Graphics %tmp.33 43 12 20 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.34 43 21 40 ];
+        %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.35 43 43 51 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.36 43 52 72 ];
+        %tmp.36 = getv %tmp.35 :TEXT_JUSTIFY_VCENTER;
+        %tmp.37 = bitor %tmp.34 %tmp.36;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.26, %tmp.28, %tmp.32, %tmp.37);
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterView_copy_mc_31_26_45_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 50; @symbol_functiondef = [onHide,50,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView copy.mc"; @line = 1; ]
+<init> {
+}

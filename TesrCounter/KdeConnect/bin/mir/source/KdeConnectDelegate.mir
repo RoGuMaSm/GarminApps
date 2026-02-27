@@ -1,0 +1,108 @@
+[ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Communications,1,14,28]; ]
+import Toybox.Communications;
+[ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 6; @symbol_classdef = [KdeConnectDelegate,6,6,24]; @symbol_extends<0> = [WatchUi,6,33,40]; @symbol_extends<1> = [BehaviorDelegate,6,41,57]; ]
+class KdeConnectDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_7_26_9_4_start:
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_return<0> = [Boolean,11,27,34]; ]
+    function onSelect() as Boolean {
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_11_35_14_4_start:
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 12 8 ]
+        %tmp.1 = self;
+        symbol [ sendKDECommand %tmp.2 12 8 22 ];
+        %tmp.2 = getv function %tmp.1 :sendKDECommand;
+        invoke %tmp.1 %tmp.2();
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 13 8 ]
+        %tmp.3 = true;
+        ret %tmp.3;
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_11_35_14_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 15; @symbol_functiondef = [sendKDECommand,15,9,23]; ]
+    function sendKDECommand() as Void {
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_15_34_33_4_start:
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 16 8 ]
+        [ "_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_15_34_33_4_start" "_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_15_34_33_4_stop" ]
+        %url.1 = local;
+        symbol [ url %url.1 16 12 15 ];
+        %tmp.1 = "http://127.0.0.1:5000/playpause";
+        lputv %url.1 %tmp.1;
+        symbol [ url %url.1 16 12 15 ];
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 21 8 ]
+        [ "_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_15_34_33_4_start" "_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_15_34_33_4_stop" ]
+        %options.2 = local;
+        symbol [ options %options.2 21 12 19 ];
+        %tmp.2 = newd 2;
+        %tmp.4 = const :method;
+        symbol [ method %tmp.4 22 13 19 const ];
+        %tmp.5 = 0;
+        %tmp.6 = dup %tmp.2;
+        %tmp.7 = aputv %tmp.6 %tmp.4 %tmp.5;
+        %tmp.9 = const :responseType;
+        symbol [ responseType %tmp.9 23 13 25 const ];
+        %tmp.10 = 0;
+        %tmp.11 = dup %tmp.7;
+        %tmp.12 = aputv %tmp.11 %tmp.9 %tmp.10;
+        lputv %options.2 %tmp.12;
+        symbol [ options %options.2 21 12 19 ];
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 27 8 ]
+        symbol [ Toybox %tmp.14 27 8 14 ];
+        %tmp.14 = getv ? :Toybox;
+        symbol [ Communications %tmp.15 27 15 29 ];
+        %tmp.15 = getv %tmp.14 :Communications;
+        symbol [ makeWebRequest %tmp.16 27 30 44 ];
+        %tmp.16 = getv function %tmp.15 :makeWebRequest;
+        %tmp.17 = lgetv %url.1;
+        symbol [ url %tmp.17 28 12 15 ];
+        %tmp.18 = null;
+        %tmp.19 = lgetv %options.2;
+        symbol [ options %tmp.19 30 12 19 ];
+        %tmp.20 = self;
+        symbol [ method %tmp.21 31 12 18 ];
+        %tmp.21 = getv function %tmp.20 :method;
+        %tmp.23 = const :onReceive;
+        symbol [ onReceive %tmp.23 31 20 29 const ];
+        %tmp.24 = invoke %tmp.20 %tmp.21(%tmp.23);
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.18, %tmp.19, %tmp.24);
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_15_34_33_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 35; @symbol_functiondef = [onReceive,35,13,22]; @symbol_param<0> = [responseCode,35,23,35]; @symbol_param<0>_type<0> = [Number,35,39,45]; @symbol_param<1> = [data,35,47,51]; @symbol_param<1>_type<0> = [Dictionary,35,55,65]; @symbol_param<1>_type<1> = [String,35,69,75]; ]
+    function onReceive(responseCode as Number, data as Dictionary or String or Null) as Void {
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_35_93_37_4_start:
+[ "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc" 36 8 ]
+        symbol [ System %tmp.1 36 8 14 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 36 15 22 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Response: ";
+        %tmp.4 = lgetv %responseCode;
+        symbol [ responseCode %tmp.4 36 38 50 ];
+        %tmp.5 = add %tmp.3 %tmp.4;
+        invoke %tmp.1 %tmp.2(%tmp.5);
+_home_roel_Lab_GarminApps_KdeConnect_source_KdeConnectDelegate_mc_35_93_37_4_stop:
+    }
+}
+[ @file = "/home/roel/Lab/GarminApps/KdeConnect/source/KdeConnectDelegate.mc"; @line = 1; ]
+<init> {
+}

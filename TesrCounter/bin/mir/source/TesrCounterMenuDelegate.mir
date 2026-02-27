@@ -1,0 +1,138 @@
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 5; @symbol_classdef = [TesrCounterMenuDelegate,5,6,29]; @symbol_extends<0> = [WatchUi,5,38,45]; @symbol_extends<1> = [MenuInputDelegate,5,46,63]; ]
+class TesrCounterMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_7_26_9_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 8 8 ]
+        symbol [ MenuInputDelegate %tmp.2 8 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 8 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
+    function onSelect(item) {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_11_28_21_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 12 8 ]
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_8_20_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 12 12 16 ];
+        symbol [ getId %tmp.2 12 17 22 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ equals %tmp.4 12 25 31 ];
+        %tmp.4 = getv function %tmp.3 :equals;
+        %tmp.5 = "single";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        bf %tmp.6 @_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_8_20_8_if_false;
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_8_20_8_if_true:
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_43_16_8_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 13 12 ]
+        [ "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_43_16_8_start" "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_43_16_8_stop" ]
+        %view.1 = local;
+        symbol [ view %view.1 13 16 20 ];
+        symbol [ TesrCounterView %tmp.10 13 27 42 ];
+        %tmp.10 = getv ? :TesrCounterView;
+        %tmp.7 = newc %tmp.10 ();
+        lputv %view.1 %tmp.7;
+        symbol [ view %view.1 13 16 20 ];
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 14 12 ]
+        [ "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_43_16_8_start" "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_43_16_8_stop" ]
+        %delegate.2 = local;
+        symbol [ delegate %delegate.2 14 16 24 ];
+        symbol [ TesrCounterDelegate %tmp.14 14 31 50 ];
+        %tmp.14 = getv ? :TesrCounterDelegate;
+        %tmp.15 = lgetv %view.1;
+        symbol [ view %tmp.15 14 51 55 ];
+        %tmp.11 = newc %tmp.14 (%tmp.15);
+        lputv %delegate.2 %tmp.11;
+        symbol [ delegate %delegate.2 14 16 24 ];
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 15 12 ]
+        symbol [ WatchUi %tmp.16 15 12 19 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.17 15 20 28 ];
+        %tmp.17 = getv function %tmp.16 :pushView;
+        %tmp.18 = lgetv %view.1;
+        symbol [ view %tmp.18 15 29 33 ];
+        %tmp.19 = lgetv %delegate.2;
+        symbol [ delegate %tmp.19 15 35 43 ];
+        symbol [ WatchUi %tmp.20 15 45 52 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.21 15 53 63 ];
+        %tmp.21 = getv %tmp.20 :SLIDE_LEFT;
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.19, %tmp.21);
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_43_16_8_stop:
+        goto @_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_8_20_8_if_end;
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_8_20_8_if_false:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 16 15 ]
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_15_20_8_if_stmt:
+        %tmp.22 = lgetv %item;
+        symbol [ item %tmp.22 16 19 23 ];
+        symbol [ getId %tmp.23 16 24 29 ];
+        %tmp.23 = getv function %tmp.22 :getId;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        symbol [ equals %tmp.25 16 32 38 ];
+        %tmp.25 = getv function %tmp.24 :equals;
+        %tmp.26 = "double";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        bf %tmp.27 @_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_15_20_8_if_end;
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_15_20_8_if_true:
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_50_20_8_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 17 12 ]
+        [ "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_50_20_8_start" "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_50_20_8_stop" ]
+        %view.3 = local;
+        symbol [ view %view.3 17 16 20 ];
+        symbol [ TesrDoubleView %tmp.31 17 27 41 ];
+        %tmp.31 = getv ? :TesrDoubleView;
+        %tmp.28 = newc %tmp.31 ();
+        lputv %view.3 %tmp.28;
+        symbol [ view %view.3 17 16 20 ];
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 18 12 ]
+        [ "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_50_20_8_start" "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_50_20_8_stop" ]
+        %delegate.4 = local;
+        symbol [ delegate %delegate.4 18 16 24 ];
+        symbol [ TesrDoubleDelegate %tmp.35 18 31 49 ];
+        %tmp.35 = getv ? :TesrDoubleDelegate;
+        %tmp.36 = lgetv %view.3;
+        symbol [ view %tmp.36 18 50 54 ];
+        %tmp.32 = newc %tmp.35 (%tmp.36);
+        lputv %delegate.4 %tmp.32;
+        symbol [ delegate %delegate.4 18 16 24 ];
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" 19 12 ]
+        symbol [ WatchUi %tmp.37 19 12 19 ];
+        %tmp.37 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.38 19 20 28 ];
+        %tmp.38 = getv function %tmp.37 :pushView;
+        %tmp.39 = lgetv %view.3;
+        symbol [ view %tmp.39 19 29 33 ];
+        %tmp.40 = lgetv %delegate.4;
+        symbol [ delegate %tmp.40 19 35 43 ];
+        symbol [ WatchUi %tmp.41 19 45 52 ];
+        %tmp.41 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.42 19 53 63 ];
+        %tmp.42 = getv %tmp.41 :SLIDE_LEFT;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40, %tmp.42);
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_50_20_8_stop:
+        goto @_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_15_20_8_if_end;
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_16_15_20_8_if_end:
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_12_8_20_8_if_end:
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterMenuDelegate_mc_11_28_21_4_stop:
+    }
+}
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

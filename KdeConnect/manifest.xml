@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="c91200f8-be6a-4f2e-9ac1-98c3e2e04760" type="watch-app" name="@Strings.AppName" entry="KdeConnectApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="5.2.0">
+        
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+
+        <iq:products>
+            <iq:product id="vivoactive5"/>
+        </iq:products>
+
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

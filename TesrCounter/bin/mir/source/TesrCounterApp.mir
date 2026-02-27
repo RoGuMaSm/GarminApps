@@ -1,0 +1,86 @@
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 5; @symbol_classdef = [TesrCounterApp,5,6,20]; @symbol_extends<0> = [Application,5,29,40]; @symbol_extends<1> = [AppBase,5,41,48]; ]
+class TesrCounterApp extends Application.AppBase {
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_7_26_9_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" 8 8 ]
+        symbol [ AppBase %tmp.2 8 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 8 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_7_26_9_4_stop:
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 12; @symbol_functiondef = [onStart,12,13,20]; @symbol_param<0> = [state,12,21,26]; @symbol_param<0>_type<0> = [Dictionary,12,30,40]; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 16; @symbol_functiondef = [onStop,16,13,19]; @symbol_param<0> = [state,16,20,25]; @symbol_param<0>_type<0> = [Dictionary,16,29,39]; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 20; @symbol_functiondef = [getInitialView,20,13,27]; ]
+    function getInitialView() {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_20_30_24_4_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" 21 8 ]
+        [ "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_20_30_24_4_start" "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_20_30_24_4_stop" ]
+        %view.1 = local;
+        symbol [ view %view.1 21 12 16 ];
+        symbol [ TesrCounterView %tmp.4 21 23 38 ];
+        %tmp.4 = getv ? :TesrCounterView;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %view.1 %tmp.1;
+        symbol [ view %view.1 21 12 16 ];
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" 22 8 ]
+        [ "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_20_30_24_4_start" "_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_20_30_24_4_stop" ]
+        %delegate.2 = local;
+        symbol [ delegate %delegate.2 22 12 20 ];
+        symbol [ TesrCounterDelegate %tmp.8 22 27 46 ];
+        %tmp.8 = getv ? :TesrCounterDelegate;
+        %tmp.9 = lgetv %view.1;
+        symbol [ view %tmp.9 22 47 51 ];
+        %tmp.5 = newc %tmp.8 (%tmp.9);
+        lputv %delegate.2 %tmp.5;
+        symbol [ delegate %delegate.2 22 12 20 ];
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" 23 8 ]
+        %tmp.10 = newa 2;
+        %tmp.11 = lgetv %view.1;
+        symbol [ view %tmp.11 23 16 20 ];
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 0 %tmp.11;
+        %tmp.14 = lgetv %delegate.2;
+        symbol [ delegate %tmp.14 23 22 30 ];
+        %tmp.15 = dup %tmp.13;
+        %tmp.16 = aputv %tmp.15 1 %tmp.14;
+        ret %tmp.16;
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_20_30_24_4_stop:
+    }
+}
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 28; @symbol_functiondef = [getApp,28,9,15]; @symbol_return<0> = [TesrCounterApp,28,21,35]; ]
+function getApp() as TesrCounterApp {
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_28_36_30_0_start:
+[ "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" 29 4 ]
+    symbol [ Application %tmp.1 29 11 22 ];
+    %tmp.1 = getm $.Toybox.Application;
+    symbol [ getApp %tmp.2 29 23 29 ];
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 TesrCounterApp;
+    symbol [ TesrCounterApp %tmp.4 29 35 49 ];
+    ret %tmp.4;
+_home_roel_Lab_GarminApps_TesrCounter_source_TesrCounterApp_mc_28_36_30_0_stop:
+}
+[ @file = "/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc"; @line = 1; ]
+<init> {
+}

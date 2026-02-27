@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/roel/Lab/GarminApps/TesrCounter/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="1" lineNum="28" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="1" lineNum="29" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="2" lineNum="4" parent="globals/TesrDoubleDelegate" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="4" lineNum="5" parent="globals/TesrCounterApp" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="5" lineNum="4" parent="globals/TesrCounterView" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="6" lineNum="4" parent="globals/TesrDoubleView" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="7" lineNum="4" parent="globals/TesrCounterDelegate" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="8" lineNum="5" parent="globals/TesrCounterMenuDelegate" pc="268435561" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="9" lineNum="30" parent="globals/TesrDoubleDelegate" pc="268435573" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="9" lineNum="31" parent="globals/TesrDoubleDelegate" pc="268435576" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="9" lineNum="32" parent="globals/TesrDoubleDelegate" pc="268435616" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="9" lineNum="33" parent="globals/TesrDoubleDelegate" pc="268435660" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="9" lineNum="36" parent="globals/TesrDoubleDelegate" pc="268435704" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="9" lineNum="37" parent="globals/TesrDoubleDelegate" pc="268435739" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="10" lineNum="9" parent="globals/TesrDoubleDelegate" pc="268435741" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="10" lineNum="10" parent="globals/TesrDoubleDelegate" pc="268435743" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="10" lineNum="11" parent="globals/TesrDoubleDelegate" pc="268435755" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="15" parent="globals/TesrDoubleDelegate" pc="268435765" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="16" parent="globals/TesrDoubleDelegate" pc="268435768" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="17" parent="globals/TesrDoubleDelegate" pc="268435777" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="20" parent="globals/TesrDoubleDelegate" pc="268435794" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="21" parent="globals/TesrDoubleDelegate" pc="268435807" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="23" parent="globals/TesrDoubleDelegate" pc="268435825" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="26" parent="globals/TesrDoubleDelegate" pc="268435840" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleDelegate.mc" id="11" lineNum="27" parent="globals/TesrDoubleDelegate" pc="268435864" symbol="onTap"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="12" lineNum="12" parent="globals/TesrCounterApp" pc="268435866" symbol="onStart"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="13" lineNum="20" parent="globals/TesrCounterApp" pc="268435869" symbol="getInitialView"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="13" lineNum="21" parent="globals/TesrCounterApp" pc="268435872" symbol="getInitialView"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="13" lineNum="22" parent="globals/TesrCounterApp" pc="268435892" symbol="getInitialView"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="13" lineNum="23" parent="globals/TesrCounterApp" pc="268435914" symbol="getInitialView"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="14" lineNum="7" parent="globals/TesrCounterApp" pc="268435929" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="14" lineNum="8" parent="globals/TesrCounterApp" pc="268435931" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterApp.mc" id="15" lineNum="16" parent="globals/TesrCounterApp" pc="268435944" symbol="onStop"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="16" lineNum="13" parent="globals/TesrCounterView" pc="268435947" symbol="updateCount"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="16" lineNum="14" parent="globals/TesrCounterView" pc="268435949" symbol="updateCount"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="16" lineNum="15" parent="globals/TesrCounterView" pc="268435958" symbol="updateCount"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="18" lineNum="20" parent="globals/TesrCounterView" pc="268435970" symbol="onLayout"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="18" lineNum="21" parent="globals/TesrCounterView" pc="268435972" symbol="onLayout"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="19" lineNum="8" parent="globals/TesrCounterView" pc="268436006" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="19" lineNum="9" parent="globals/TesrCounterView" pc="268436008" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="21" lineNum="31" parent="globals/TesrCounterView" pc="268436021" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="21" lineNum="33" parent="globals/TesrCounterView" pc="268436023" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="21" lineNum="34" parent="globals/TesrCounterView" pc="268436035" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="21" lineNum="37" parent="globals/TesrCounterView" pc="268436043" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterView.mc" id="21" lineNum="38" parent="globals/TesrCounterView" pc="268436060" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="22" lineNum="8" parent="globals/TesrDoubleView" pc="268436106" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="22" lineNum="9" parent="globals/TesrDoubleView" pc="268436108" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="18" parent="globals/TesrDoubleView" pc="268436121" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="19" parent="globals/TesrDoubleView" pc="268436124" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="20" parent="globals/TesrDoubleView" pc="268436136" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="22" parent="globals/TesrDoubleView" pc="268436144" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="23" parent="globals/TesrDoubleView" pc="268436153" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="26" parent="globals/TesrDoubleView" pc="268436162" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="27" parent="globals/TesrDoubleView" pc="268436178" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="30" parent="globals/TesrDoubleView" pc="268436205" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="31" parent="globals/TesrDoubleView" pc="268436221" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="34" parent="globals/TesrDoubleView" pc="268436259" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="23" lineNum="35" parent="globals/TesrDoubleView" pc="268436275" symbol="onUpdate"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="24" lineNum="12" parent="globals/TesrDoubleView" pc="268436314" symbol="updateCounts"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="24" lineNum="13" parent="globals/TesrDoubleView" pc="268436316" symbol="updateCounts"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="24" lineNum="14" parent="globals/TesrDoubleView" pc="268436325" symbol="updateCounts"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrDoubleView .mc" id="24" lineNum="15" parent="globals/TesrDoubleView" pc="268436334" symbol="updateCounts"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="25" lineNum="19" parent="globals/TesrCounterDelegate" pc="268436346" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="25" lineNum="20" parent="globals/TesrCounterDelegate" pc="268436349" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="25" lineNum="21" parent="globals/TesrCounterDelegate" pc="268436389" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="25" lineNum="22" parent="globals/TesrCounterDelegate" pc="268436433" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="25" lineNum="25" parent="globals/TesrCounterDelegate" pc="268436477" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="25" lineNum="26" parent="globals/TesrCounterDelegate" pc="268436512" symbol="onMenu"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="26" lineNum="8" parent="globals/TesrCounterDelegate" pc="268436514" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="26" lineNum="9" parent="globals/TesrCounterDelegate" pc="268436516" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="26" lineNum="10" parent="globals/TesrCounterDelegate" pc="268436528" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="27" lineNum="13" parent="globals/TesrCounterDelegate" pc="268436538" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="27" lineNum="14" parent="globals/TesrCounterDelegate" pc="268436540" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="27" lineNum="15" parent="globals/TesrCounterDelegate" pc="268436555" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterDelegate.mc" id="27" lineNum="16" parent="globals/TesrCounterDelegate" pc="268436574" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="28" lineNum="7" parent="globals/TesrCounterMenuDelegate" pc="268436576" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="28" lineNum="8" parent="globals/TesrCounterMenuDelegate" pc="268436578" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="11" parent="globals/TesrCounterMenuDelegate" pc="268436591" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="12" parent="globals/TesrCounterMenuDelegate" pc="268436594" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="13" parent="globals/TesrCounterMenuDelegate" pc="268436617" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="14" parent="globals/TesrCounterMenuDelegate" pc="268436637" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="15" parent="globals/TesrCounterMenuDelegate" pc="268436659" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="16" parent="globals/TesrCounterMenuDelegate" pc="268436681" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="17" parent="globals/TesrCounterMenuDelegate" pc="268436704" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="18" parent="globals/TesrCounterMenuDelegate" pc="268436724" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/source/TesrCounterMenuDelegate.mc" id="29" lineNum="19" parent="globals/TesrCounterMenuDelegate" pc="268436746" symbol="onSelect"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="30" lineNum="13" parent="globals/Rez/Layouts" pc="268436769" symbol="MainLayout"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="30" lineNum="14" parent="globals/Rez/Layouts" pc="268436779" symbol="MainLayout"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="31" lineNum="19" parent="globals/Rez/Menus/MainMenu" pc="268436782" symbol="&lt;init&gt;"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="32" lineNum="20" parent="globals/Rez/Menus/MainMenu" pc="268436794" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="32" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268436796" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="32" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268436808" symbol="initialize"/>
+        <entry filename="/home/roel/Lab/GarminApps/TesrCounter/bin/gen/006-B4426-00/source/Rez.mcgen" id="32" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268436853" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="12" object="true" symbol="TesrDoubleView"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="19" method="true" symbol="updateCount"/>
+        <entry id="10" object="true" symbol="TesrCounterView"/>
+        <entry id="26" method="true" symbol="MainLayout"/>
+        <entry field="true" id="23" symbol="&lt;globals/TesrCounterDelegate/&lt;&gt;_count&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="11" object="true" symbol="TesrDoubleDelegate"/>
+        <entry id="8" object="true" symbol="TesrCounterDelegate"/>
+        <entry field="true" id="28" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="30" symbol="prompt"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="18" symbol="&lt;globals/TesrCounterView/&lt;&gt;_count&gt;"/>
+        <entry id="7" object="true" symbol="TesrCounterApp"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="29" symbol="double"/>
+        <entry field="true" id="24" symbol="&lt;globals/TesrCounterDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="17" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="9" object="true" symbol="TesrCounterMenuDelegate"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="22" method="true" symbol="updateCounts"/>
+        <entry field="true" id="15" symbol="&lt;globals/TesrDoubleDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="27" object="true" symbol="MainMenu"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="25" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="31" symbol="single"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="21" symbol="&lt;globals/TesrDoubleView/&lt;&gt;_countB&gt;"/>
+        <entry field="true" id="20" symbol="&lt;globals/TesrDoubleView/&lt;&gt;_countA&gt;"/>
+        <entry id="16" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="14" symbol="&lt;globals/TesrDoubleDelegate/&lt;&gt;_countB&gt;"/>
+        <entry field="true" id="13" symbol="&lt;globals/TesrDoubleDelegate/&lt;&gt;_countA&gt;"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435740" name="menu" stackId="1" startPc="268435576"/>
+        <entry arg="true" endPc="268435764" name="view" stackId="1" startPc="268435741"/>
+        <entry arg="true" endPc="268435865" name="clickEvent" stackId="1" startPc="268435765"/>
+        <entry endPc="268435865" name="coords" stackId="2" startPc="268435768"/>
+        <entry endPc="268435865" name="screenWidth" stackId="3" startPc="268435768"/>
+        <entry endPc="268435928" name="view" stackId="1" startPc="268435872"/>
+        <entry endPc="268435928" name="delegate" stackId="2" startPc="268435872"/>
+        <entry arg="true" endPc="268435969" name="newCount" stackId="1" startPc="268435947"/>
+        <entry arg="true" endPc="268436005" name="dc" stackId="1" startPc="268435970"/>
+        <entry arg="true" endPc="268436105" name="dc" stackId="1" startPc="268436021"/>
+        <entry arg="true" endPc="268436313" name="dc" stackId="1" startPc="268436121"/>
+        <entry endPc="268436312" name="width" stackId="2" startPc="268436124"/>
+        <entry endPc="268436312" name="height" stackId="3" startPc="268436124"/>
+        <entry arg="true" endPc="268436345" name="a" stackId="1" startPc="268436314"/>
+        <entry arg="true" endPc="268436345" name="b" stackId="2" startPc="268436314"/>
+        <entry endPc="268436513" name="menu" stackId="1" startPc="268436349"/>
+        <entry arg="true" endPc="268436537" name="view" stackId="1" startPc="268436514"/>
+        <entry arg="true" endPc="268436768" name="item" stackId="1" startPc="268436591"/>
+        <entry endPc="268436677" name="view" stackId="2" startPc="268436617"/>
+        <entry endPc="268436677" name="delegate" stackId="3" startPc="268436617"/>
+        <entry endPc="268436764" name="view" stackId="4" startPc="268436704"/>
+        <entry endPc="268436764" name="delegate" stackId="5" startPc="268436704"/>
+        <entry arg="true" endPc="268436781" name="dc" stackId="1" startPc="268436769"/>
+    </localVars>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4426-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="single"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="double"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/TesrDoubleDelegate" offset="170" parentId="globals" symbolId="TesrDoubleDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="259" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/TesrCounterApp" offset="321" parentId="globals" symbolId="TesrCounterApp" type="class"/>
+        <dataEntry label="globals/TesrCounterView" offset="392" parentId="globals" symbolId="TesrCounterView" type="class"/>
+        <dataEntry label="globals/TesrDoubleView" offset="490" parentId="globals" symbolId="TesrDoubleView" type="class"/>
+        <dataEntry label="globals/TesrCounterDelegate" offset="570" parentId="globals" symbolId="TesrCounterDelegate" type="class"/>
+        <dataEntry label="globals/TesrCounterMenuDelegate" offset="650" parentId="globals" symbolId="TesrCounterMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="703" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="738" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="773" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="808" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="870" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="TesrDoubleDelegate" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="TesrCounterApp" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="TesrCounterView" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="TesrDoubleView" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="TesrCounterDelegate" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="TesrCounterMenuDelegate" startPc="268435561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435740" name="onMenu" parent="TesrDoubleDelegate" startPc="268435573">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435764" name="initialize" parent="TesrDoubleDelegate" startPc="268435741">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435865" name="onTap" parent="TesrDoubleDelegate" startPc="268435765">
+            <param id="clickEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435868" name="onStart" parent="TesrCounterApp" startPc="268435866">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435928" name="getInitialView" parent="TesrCounterApp" startPc="268435869">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435943" name="initialize" parent="TesrCounterApp" startPc="268435929">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435946" name="onStop" parent="TesrCounterApp" startPc="268435944">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435969" name="updateCount" parent="TesrCounterView" startPc="268435947">
+            <param id="newCount"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="TesrCounterView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436005" name="onLayout" parent="TesrCounterView" startPc="268435970">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436020" name="initialize" parent="TesrCounterView" startPc="268436006">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="TesrCounterView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436105" name="onUpdate" parent="TesrCounterView" startPc="268436021">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436120" name="initialize" parent="TesrDoubleView" startPc="268436106">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436313" name="onUpdate" parent="TesrDoubleView" startPc="268436121">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436345" name="updateCounts" parent="TesrDoubleView" startPc="268436314">
+            <param id="a"/>
+            <param id="b"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436513" name="onMenu" parent="TesrCounterDelegate" startPc="268436346">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436537" name="initialize" parent="TesrCounterDelegate" startPc="268436514">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436575" name="onSelect" parent="TesrCounterDelegate" startPc="268436538">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436590" name="initialize" parent="TesrCounterMenuDelegate" startPc="268436576">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436768" name="onSelect" parent="TesrCounterMenuDelegate" startPc="268436591">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436781" name="MainLayout" parent="Layouts" startPc="268436769">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436793" name="&lt;init&gt;" parent="MainMenu" startPc="268436782">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436898" name="initialize" parent="MainMenu" startPc="268436794">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
